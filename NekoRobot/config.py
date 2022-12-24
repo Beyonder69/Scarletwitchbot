@@ -14,27 +14,27 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 17441778   # integer value, dont use ""
-    API_HASH = "d221a3858d847abbec41da95840b4a64"
-    TOKEN = "5374038266:AAGeg2_tkrJeC76hwDw4u5NWvVdpEDAY2sE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 14056295   # integer value, dont use ""
+    API_HASH = "9ae65901d2eeb5854cc5aa562566d34a"
+    TOKEN = "5687579083:AAG13Q0fN81Kx95DLI7zWBRf0WoDF5lncnU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     MONGO_DB = "Shikimori"
     TEMP_DOWNLOAD_DIRECTORY= "./"
-    MONGO_DB_URI = "mongodb+srv://toaa:toaa69@cluster0.eduoooo.mongodb.net/?retryWrites=true&w=majority"
-    OWNER_ID = 1347884554  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "M_TOAA"
-    HELP_IMG = "https://graph.org/file/1f3a67933a0d1d9135990.jpg"
-    SUPPORT_CHAT = "scarletwitchsupport"  # Your own group for support, do not add the @
+    MONGO_DB_URI = "mongodb+srv://sukuna:sukuna@sukuna.vipbn9a.mongodb.net/?retryWrites=true&w=majority"
+    OWNER_ID = 1805959544  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Fazal000001"
+    HELP_IMG = "https://graph.org/file/82068988c0d250cb359a4.jpg"
+    SUPPORT_CHAT = "sukunaXsupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001676717902
+        -1001893268779
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001676717902
+        -1001893268779
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@lucky.db.elephantsql.com/vegudydt"  # needed for any database modules
-    DB_URL = "postgres://vqemfmub:hiaYxgZNcTlQ4AuEHAwvaq-2lI0_L2Y4@peanut.db.elephantsql.com/vqemfmub"
+    SQLALCHEMY_DATABASE_URI = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@luck"  # needed for any database modules
+    DB_URL = ""
     REDIS_URL = "redis://default:6vsajwd6wq3lNI7T3zMIpltTrU040DJC@redis-19248.c16.us-east-1-3.ec2.cloud.redislabs.com:19248"
     LOAD = []
     BOT_USERNAME = "Scarlet_Witchh_Bot"
